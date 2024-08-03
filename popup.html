@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 100%;
+	background-color: #FF1111;
+    }
+    input[type="number"] {
+      width: 80px;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+    .input-group {
+      margin-bottom: 10px;
+font-size: 14px;
+	color: #FFF;
+    }
+    #save-button {
+      width: 60px;
+    }
+h3 {
+color: #FFF;
+}
+  </style>
+</head>
+<body>
+  <h3>YouTube Grid Size</h3>
+  <div class="input-group">
+    <label for="grid-items-input">Videos:</label>
+    <input id="grid-items-input" type="number" min="1" value="6">
+  </div>
+  <div class="input-group">
+    <label for="slim-items-input">Shorts:</label>
+    <input id="slim-items-input" type="number" min="1" value="5">
+  </div>
+  <button id="save-button">Save</button>
+  <script src="popup.js"></script>
+</body>
+</html>
